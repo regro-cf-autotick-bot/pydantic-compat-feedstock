@@ -1,5 +1,5 @@
 {% set name = "pydantic-compat" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pydantic_compat-{{ version }}.tar.gz
-  sha256: 2ef149f624296f08395165d8ef0f05ed45124cb82dde442fd032900239decefb
+  sha256: c5c5bca39ca2d22cad00c02898e400e1920e5127649a8e860637f15566739373
 
 build:
   noarch: python
